@@ -1,0 +1,63 @@
+body{
+    padding: 5%;
+    background-color: rgb(238, 231, 198);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 150%;
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+
+li a{
+    font-size: larger;
+}
+
+img{
+    height: auto;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    border: 12px dotted #2d5630;
+    border-radius: 50% 10%;
+}
+
+div{
+    padding: 20%;
+}
